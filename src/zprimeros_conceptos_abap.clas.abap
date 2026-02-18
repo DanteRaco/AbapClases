@@ -19,7 +19,9 @@ ENDCLASS.
 
 
 
-CLASS zprimeros_conceptos_abap IMPLEMENTATION.
+CLASS ZPRIMEROS_CONCEPTOS_ABAP IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DATA: lv_string TYPE string,  " Variable de tipo string (cadena de caracteres)
@@ -43,5 +45,4 @@ CLASS zprimeros_conceptos_abap IMPLEMENTATION.
     out->write( |Formato User: { lv_date DATE = USER }| ).
 
   ENDMETHOD.
-
 ENDCLASS.
